@@ -64,7 +64,7 @@
     var template = $('#value-item').html();
     Mustache.parse(template);
 
-    $(".col-sm-3").each(function(index, value){
+    $(".item-slot").each(function(index, value){
       if(index >= 10 || id*10 + index >= pb.all.length) {
         $(value).html("");
       } else {
