@@ -1,47 +1,39 @@
-/* Put your css in here */
-@import url('assets/css/fontawesome/font-awesome.min.css'); /*Icons Fonts*/
+@import url('assets/css/fontawesome/font-awesome.min.css');
+/*Icons Fonts*/
 
-body{
-	background-color:rgb(228,232,241);
-	color:#85868d;
-	font-family: 'Open Sans', sans-serif;
-	position:relative;
-	padding-top: 50px;
+body {
+  background-color: rgb(228, 232, 241);
+  color: #85868d;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  padding-top: 50px;
 }
-
 .chart-panel {
-	min-height: 450px;
+  min-height: 450px;
 }
-
 .value-item:hover {
-	cursor: pointer;
-	background-color: #ccc;
-	border: 1px gold solid;
+  cursor: pointer;
+  background-color: #ccc;
+  border: 1px gold solid;
 }
-
 .panel-title {
-	font-weight: 600;
-	color: #111;
+  font-weight: 600;
+  color: #111;
 }
-
 .blood-value {
-	font-size: 32px;
-	color: rgb(47,131,226);
+  font-size: 32px;
+  color: rgb(47, 131, 226);
 }
-
 .blood-units {
-	font-size: 12px;
+  font-size: 12px;
 }
-
-.blood-source, .blood-date, .blood-range{
-	font-size: 12px;
+.blood-source, .blood-date, .blood-range {
+  font-size: 12px;
 }
-
 .blood-change {
-	font-size: 16px;
-	color: #666;
+  font-size: 16px;
+  color: #666;
 }
-
 #back-button {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
