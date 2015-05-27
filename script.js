@@ -96,7 +96,7 @@
     page("overviewPage");
 
     //disable pagination
-    $("ul.pagination li").each(function(index, value) {
+    $("ul.pagination li").each(function(index) {
       if(index > pb.all.length/10) $(this).addClass("disabled");
     });
 
@@ -144,13 +144,13 @@
   };
 
   var getSources = function(values){
-    var x = {}
+    var x = {};
 
     for(var i = 0; i < values.length; i++){
       x[values[i].date] = values[i].source;
     }
 
-    return x
+    return x;
   };
 
   var getProps = function(values){
@@ -160,13 +160,13 @@
 
     for(var i = 1; i < values.length; i++){
       tot += values[i].value;
-      if(values[i].value < min) min = values[i].value
-      if(values[i].value > max) max = values[i].value
+      if(values[i].value < min) min = values[i].value;
+      if(values[i].value > max) max = values[i].value;
     }
     var mean = tot / values.length;
 
     return {"mean" : mean, "max" : max, "min" : min};
-  }
+  };
 
 	pb.loadData = function(callback) {
 		$.getJSON("data.json", function(file) {
