@@ -1,12 +1,14 @@
 {
 	"Urea" : {
 		"fullname" : "Urea",
-		"value" : 3.7,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Urea",3.5,3.6,4.5,4.3,4.2,3.7]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 3.5, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 3.6, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 4.5, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 4.3, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 4.2, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 3.7, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 3,
@@ -19,12 +21,14 @@
 	},
 	"Creatinine" : {
 		"fullname" : "Creatinine",
-		"value" : 72,
-		"source" : "MRI",
 		"units" : "micromol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Creatinine",95,85,82,84,75,72]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 95, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 85, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 82, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 84, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 75, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 72, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 50,
@@ -35,14 +39,16 @@
 			"max" : 100
 		}
 	},
-	"K" : {
+	"Potassium" : {
 		"fullname" : "Potassium",
-		"value" : 4,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Potassium",3.9,5.4,7,6,4.5,4]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 3.9, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 5.4, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 7, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 6, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 4.5, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 5.4, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 5,
@@ -53,14 +59,16 @@
 			"max" : 12
 		}
 	},
-	"Ca" : {
+	"Calcium" : {
 		"fullname" : "Calcium",
-		"value" : 2.4,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Calcium",1.5,1.85,1.9,2,2.3,2.4]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 1.5, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 1.85, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 1.9, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 2, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 2.3, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 2.4, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 0.5,
@@ -73,12 +81,14 @@
 	},
 	"Urea2" : {
 		"fullname" : "Urea2",
-		"value" : 3.7,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Urea2",3.5,3.6,4.5,4.3,4.2,3.7]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 3.5, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 3.6, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 4.5, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 4.3, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 4.2, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 3.7, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 3,
@@ -91,12 +101,14 @@
 	},
 	"Creatinine2" : {
 		"fullname" : "Creatinine2",
-		"value" : 72,
-		"source" : "MRI",
 		"units" : "micromol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Creatinine2",95,85,82,84,75,72]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 95, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 85, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 82, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 84, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 75, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 72, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 50,
@@ -107,14 +119,16 @@
 			"max" : 100
 		}
 	},
-	"K2" : {
+	"Potassium2" : {
 		"fullname" : "Potassium2",
-		"value" : 4,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Potassium2",3.9,5.4,7,6,4.5,4]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 3.9, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 5.4, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 7, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 6, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 4.5, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 5.4, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 5,
@@ -125,14 +139,16 @@
 			"max" : 12
 		}
 	},
-	"Ca2" : {
+	"Calcium2" : {
 		"fullname" : "Calcium2",
-		"value" : 2.4,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Calcium2",1.5,1.85,1.9,2,2.3,2.4]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 1.5, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 1.85, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 1.9, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 2, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 2.3, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 2.4, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 0.5,
@@ -145,12 +161,14 @@
 	},
 	"Urea3" : {
 		"fullname" : "Urea3",
-		"value" : 3.7,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Urea3",3.5,3.6,4.5,4.3,4.2,3.7]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 3.5, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 3.6, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 4.5, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 4.3, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 4.2, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 3.7, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 3,
@@ -163,12 +181,14 @@
 	},
 	"Creatinine3" : {
 		"fullname" : "Creatinine3",
-		"value" : 72,
-		"source" : "MRI",
 		"units" : "micromol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Creatinine3",95,85,82,84,75,72]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 95, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 85, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 82, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 84, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 75, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 72, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 50,
@@ -179,14 +199,16 @@
 			"max" : 100
 		}
 	},
-	"K3" : {
+	"Potassium3" : {
 		"fullname" : "Potassium3",
-		"value" : 4,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Potassium3",3.9,5.4,7,6,4.5,4]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 3.9, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 5.4, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 7, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 6, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 4.5, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 5.4, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 5,
@@ -197,14 +219,16 @@
 			"max" : 12
 		}
 	},
-	"Ca3" : {
+	"Calcium3" : {
 		"fullname" : "Calcium3",
-		"value" : 2.4,
-		"source" : "MRI",
 		"units" : "mmol/l",
-		"trend" : [
-			["x","2014-01-01","2014-06-02","2014-09-03","2015-01-04","2015-03-05","2015-04-06"],
-			["Calcium3",1.5,1.85,1.9,2,2.3,2.4]
+		"values" : [
+			{"date" : "2014-01-01", "value" : 1.5, "source" : "MRI" },
+			{"date" : "2014-06-02", "value" : 1.85, "source" : "MRI" },
+			{"date" : "2014-09-03", "value" : 1.9, "source" : "MRI" },
+			{"date" : "2015-01-04", "value" : 2, "source" : "MRI" },
+			{"date" : "2015-03-05", "value" : 2.3, "source" : "MRI" },
+			{"date" : "2015-04-06", "value" : 2.4, "source" : "MRI" }
 		],
 		"normal" : {
 			"min" : 0.5,
